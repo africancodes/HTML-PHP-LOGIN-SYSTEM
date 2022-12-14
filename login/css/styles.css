@@ -1,0 +1,224 @@
+.body{
+  width: 100%;
+}
+ .row{
+  display: flex;
+  height: 80vh;
+}
+ .fomu {
+  margin-left: 30px;
+  width: 50%;
+  padding: 40px;
+  background: white;
+}
+.nestedForm{
+  height: 150px;
+  margin: 20px;
+  margin-right: 33px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: green;
+}
+.fh{
+  margin: auto;
+  text-align: center;
+  vertical-align:middle;
+  padding-top: 60px;
+  font-size: 40px;
+}
+.regForm{
+  width: auto;
+  border: 1px dotted #deb0b0;
+  margin: 5%;
+  border-radius: 15px;
+}
+.loginForm{
+  padding: 20px;
+}
+
+.loginField{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 200px;
+  background-color: rgba(255, 255, 255, 0.838);
+  border: 3px outset chocolate;
+  border-radius: 10px;
+}
+
+.loginField legend h1{
+  justify-items: center;
+  color: rgba(87, 87, 86, 0.945);
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: rgba(70, 69, 67, 0.945);
+  border: none;
+  border-radius: 5px;
+  max-height: 40px;
+}
+.error {
+  width: 80%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+
+/* styles for the header */
+.nav-bar{
+	position: static;
+  width: auto;
+  width: 100%;
+  margin-top: 0%;
+}
+.header2{
+	height: 100px;
+	display: flex;
+  width: 100%;
+	background-color: rgb(139, 139, 163);
+}
+.heading1{
+	text-decoration: blink;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-left: 10px;
+	padding-right: 10px;
+  font-size: 100%;
+}
+.heading2{
+	font-family: 'Courier New', Courier, monospace;
+	color: orangered;
+	padding: 5px;
+  font-size: 100%;
+}
+a{
+	text-decoration: none;
+}
+.links{
+	position: absolute;
+	right: 40px;
+	padding-top: 70px;
+	font-size: 24px;
+	word-spacing: 5px;
+  font-size: 100%;
+}
+.a-font-size{
+  font-size: 23px;
+}
+
+/* styles for the footer */
+.footer{
+  position: relative;
+  margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  text-align: center;
+	background-color: rgb(139, 139, 163);
+	font-size: 24px;
+  height: 100px;
+  margin-top: 100vh;
+} 
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.menu a {
+  padding-left: 10px;
+}
+/* styles for Edit and Delete table */
+table{
+  width: auto;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr {
+  border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+tr:hover {
+  background: #F5F5F5;
+}
+
+.edit_btn {
+  text-decoration: none;
+  width: 15px;
+  background-color: green;
+  color: white;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 5px;
+  width: auto;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+.msg {
+  margin: 30px auto; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  width: 50%;
+  text-align: center;
+}
+
+.admin{
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  margin-top: auto;
+  border-radius: 15px;
+  background-color: rgba(131, 119, 50, 0.945);
+}
+.section3{
+  background-color: darkgray;
+  display: flex;
+}
+.products{
+  background-color: white;
+  width: 100%;
+  height: 50vh;
+  margin: 1.5%;
+  border-radius: 20px;
+  border: 1px rgba(207, 178, 11, 0.945) solid;
+  padding: 15px;
+}
+.list li{
+  font-size: 20px;
+}
